@@ -1,2 +1,3 @@
 # docker-texlive
-A docker image with pdflatex
+
+An opinionated docker image with pdflatex.
