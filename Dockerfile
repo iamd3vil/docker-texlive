@@ -13,4 +13,4 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN apt-get update && apt-get install -y texlive-latex-extra texlive-fonts-extra wget
+RUN apt-get update && apt-get install -y texlive-latex-extra texlive-luatex texlive-fonts-extra wget
